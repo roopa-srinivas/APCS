@@ -1,0 +1,37 @@
+﻿a. What will a jumper do if the location in front of it is empty, but the
+location two cells in front contains a flower or a rock?[a]
+The jumper will go forward one space, but if there is a flower or rock in both spaces in front of it, it will turn 90 degrees.
+
+
+b. What will a jumper do if the location two cells in front of the jumper is
+out of the grid?
+Only move forward one space. 
+
+
+c. What will a jumper do if it is facing an edge of the grid?
+If one space forward is also outside the grid, turn. 
+[b][c]
+
+
+d. [d]What will a jumper do if another actor (not a flower or a rock) is in the
+cell that is two cells in front of the jumper?
+It will move forwards one space or turn if something is in that cell. 
+
+
+e. What will a jumper do if it encounters another jumper in its path?
+If the other jumper is one space ahead, jump over it. If it is 2 spaces ahead, only move forward 1 space. If there are other jumpers in both the space ahead and 2 ahead, turn.
+
+
+f. Are there any other tests the jumper needs to make?
+If the jumper is surrounded, it will just turn in circles until a space opens.
+[e]
+
+
+
+
+Essentially: move 2 spaces forward, if it can’t, move 1 space forward, if it can’t, turn
+[a]sophie
+[b]savio
+[c]bug already at the edge
+[d]Anuva
+[e]katy
