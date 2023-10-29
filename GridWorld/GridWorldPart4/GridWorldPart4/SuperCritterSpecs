@@ -1,0 +1,10 @@
+SuperCritter.java
+
+The critter moves to one of two locations a chess distance of 2 (which is 2 units forward the direction it’s facing and 
+then 1 unit 90 degrees(right or left - randomly chosen) from the way it originally faces, after the move it will face the 
+direction it moved in(90 degrees left or 90 degrees right depends on which way it moved in))) from the original position, 
+and then faces the direction it moved in last. As the critter moves, if it has a neighbor (anything but a rock), it changes 
+that neighbor into a critter of the same color as the original actor in its spot. If the neighbor it chooses is a critter, 
+nothing happens. For example, if a blue critter has a red flower as a neighbor, it will change the red flower to a red 
+critter. If the critter has nowhere to move (if both the locations that it can go to are filled), it will die.
+(removed from the grid). If the critter reaches the edge of the screen, it dies.
